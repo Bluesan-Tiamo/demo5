@@ -597,3 +597,27 @@ button {
 .process__item:hover .process__img {
     opacity: 1;
 }
+/* projects */
+.projects {
+    background-color: var(--primary-heading);
+}
+.projects__body {
+    padding-top: 56px;
+    padding-bottom: 65px;
+}
+.projects__top {
+    display: flex;
+    align-items: center;
+}
+.projects__title {
+    color: #E7F9F9;
+    margin-right: 93px;
+}
+.projects__title::after {
+    display: inline-block;
+    content: "";
+    width: 66px;
+    height: 2px;
+    transform: translate(8px, -8px);
+    background: #83A17D;
+}
